@@ -37,10 +37,10 @@ const Sample1 = () => {
             </div>
             縦横2: 横４
             <div className='flex justify-center flex-wrap mb-16'>
-                <div className='text-center border border-blue-500 py-4 w-1/2 md:w-1/4'>1</div>
-                <div className='text-center border border-blue-500 py-4 w-1/2 md:w-1/4'>2</div>
-                <div className='text-center border border-blue-500 py-4 w-1/2 md:w-1/4'>3</div>
-                <div className='text-center border border-blue-500 py-4 w-1/2 md:w-1/4'>4</div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
             </div>
         </>
     );

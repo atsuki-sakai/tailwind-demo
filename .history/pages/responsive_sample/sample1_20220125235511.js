@@ -30,17 +30,21 @@ const Sample1 = () => {
                 <div className='text-center border border-blue-400 py-4 flex-grow'></div>
             </div>
             縦３ :  横３　3/12, 6/12, 3/12
-            <div className='md:flex mb-16'>
+            <div className='md:flex'>
                 <div className='text-center  py-4 flex-grow md:w-3/12'></div>
                 <div className='text-center border border-blue-400 py-4 flex-grow md:w-6/12'>Hello Sakai Atsuki</div>
                 <div className='text-center  py-4 flex-grow md:w-3/12'></div>
             </div>
             縦横2: 横４
-            <div className='flex justify-center flex-wrap mb-16'>
-                <div className='text-center border border-blue-500 py-4 w-1/2 md:w-1/4'>1</div>
-                <div className='text-center border border-blue-500 py-4 w-1/2 md:w-1/4'>2</div>
-                <div className='text-center border border-blue-500 py-4 w-1/2 md:w-1/4'>3</div>
-                <div className='text-center border border-blue-500 py-4 w-1/2 md:w-1/4'>4</div>
+            <div className='m-12 md:flex'>
+                <div className='flex md:flex-col'>
+                    <div className='text-center border border-yellow-500 flex-grow'>Hello</div>
+                    <div className='text-center border border-yellow-500 flex-grow'>Hello</div>
+                </div>
+                <div className='flex md:flex-col'>
+                    <div className='text-center border border-yellow-500 flex-grow'>Hello</div>
+                    <div className='text-center border border-yellow-500 flex-grow'>Hello</div>
+                </div>
             </div>
         </>
     );
