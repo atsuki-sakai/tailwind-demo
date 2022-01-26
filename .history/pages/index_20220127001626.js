@@ -21,8 +21,6 @@ import { Form } from "./tips/Form";
 import { Gradation } from "./tips/Gradation";
 import Transition from "./tips/Transition";
 import Transform from "./tips/Transform";
-import Animation from "./tips/Animation";
-
 
 export default function Home() {
   return (
